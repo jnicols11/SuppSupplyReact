@@ -1,0 +1,28 @@
+@import './base.scss';
+
+.card {
+    background-color: $color-white;
+    border: 2px solid $color-grey;
+    width: 200px;
+    border: 2px solid $color-primary;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    font-family: $font;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    & img {
+        margin-top: 5%;
+        height: 150px;
+        width: 100px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+}

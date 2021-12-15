@@ -1,0 +1,52 @@
+@import './base.scss';
+
+.header {
+    margin-top: 1%;
+    width: 100%;
+    height: 45vh;
+    background-image: linear-gradient(to bottom, #ffffff77, #fb8b2391), url('../Images/cover3.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+
+    & h2 {
+        color: $color-primary;
+        font-size: 35px;
+        margin-left: 10%;
+        padding-top: 3%;
+    }
+
+    & p {
+        color: $color-primary;
+        font-size: 20px;
+        margin-left: 12%;
+    }
+
+    & button {
+        height: 80px;
+        width: 200px;
+        font-size: 20px;
+        margin-left: 70%;
+        margin-top: 6%;
+        margin-bottom: 7%;
+        background-color: $color-primary;
+        color: $color-white;
+        border: 2px solid $color-primary;
+        cursor: pointer;
+        border-radius: 60px;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        -ms-border-radius: 60px;
+        -o-border-radius: 60px;
+        transition: all .5s;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+    }
+
+    & button:hover {
+        background-color: $color-primary-dark;
+        border: 2px solid $color-primary-dark;
+        color: $color-grey-light;
+    }
+}
